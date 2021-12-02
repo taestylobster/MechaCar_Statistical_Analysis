@@ -42,3 +42,29 @@ dataset's mean is statistically similar to the population mean of 1500.<br />
 ![Lot1 t-test](Lot3_t-test.PNG) <br />
 
 
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+Follow the instructions below to complete Deliverable 4.
+
+In your README, create a subheading ## Study Design: MechaCar vs Competition.
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
+## Study Design: MechaCar vs Competition
+1) For a statistical study there are a few metrics we can look at to determine if the MechaCar would be interesting for consumers. The first metric, as a fan of sports cars,
+that I would like to look at is the MechaCar's time from 0-60 mph. If it is faster than other performance cars, consumers would definitely be interested in the MechaCar.
+If it turns out that that MechaCar isn't better than other performance cars, then we would want to look at metrics for the average consumer such as mpg, cubic ft of the vehicle (storage and legroom space), and of course the cost. 
+
+2) The null hypothesis for each individual metric would be that there is no statistical difference of the MechaCar from current production cars.
+The alternative hypothesis would then be is there a statistical difference that benefits the MechaCar for the individual metric.
+
+3) Linear regression would be used for the 0-60 time of the MechaCar to see if there is a faster time than competition.
+Multi linear regression would be used for the mpg metric since we can use many variables and determine which affect mpg the most and then determine if changes in those variables are possible in production to create a better mpg metric for the MechaCar.
+For the cubic ft of the vehicle, I would use a chi-squared test to determine if the catergories of vehicles the MechaCar would compete against have more or less cubic ft than the MechaCar.
+For the cost, I would again use multi linear regression to use many variables and again see if anything in production can be changed to make the cost of the MechaCar cheaper than competition.
+
+4) The data needed for testing would be the 0-60 times for the MechaCar and competitor vehicles. For mpg, you would need engine size, cylinders, mpg for city and highway, and transmission type. More variables can be added if these don't appear to have much difference. For the cubic ft you would simply need the passenger space and the cargo space for the MechaCar and competitor models. For cost, I would use all the highest cost of production data such as engineering, manufacturing, cost of parts, etc..
