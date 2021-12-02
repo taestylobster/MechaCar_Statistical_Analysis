@@ -22,3 +22,23 @@ However, when looking at the variance of vehicles group by their lot, we can see
 As you can see, Lot3 has a variance of 170.29 PSI.<br />
 ![lot_summary](lot_summary.PNG) <br />
 
+In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+## T-Test on Suspension Coils
+1) Using the whole Suspension_Coils database, the t-test gave a p-value of 0.060 which is above our significance level of 0.05. Therefore we can confirm the 
+dataset's mean is statistically similar to the population mean of 1500.<br />
+![Suspension_Coils](Suspension_Coil t-test.PNG) <br />
+
+2) Using the subset of only vehicles from lot 1, the t-test gave a p-value of 1 which is well above our significance level of 0.05. Therefore we can certainly confirm the 
+dataset's mean is statistically similar to the population mean of 1500.<br />
+![Lot1 t-test](Lot1 t-test.PNG) <br />
+
+3) Using the subset of only vehicles from lot 2, the t-test gave a p-value of 0.6072 which is well above our significance level of 0.05. Therefore we can certainly confirm the 
+dataset's mean is statistically similar to the population mean of 1500.<br />
+![Lot1 t-test](Lot2 t-test.PNG) <br />
+
+4) Using the subset of only vehicles from lot 3, the t-test gave a p-value of 0.04168 which is below our significance level of 0.05. Therefore we cannot confirm the 
+dataset's mean is statistically similar to the population mean of 1500.<br />
+![Lot1 t-test](Lot3 t-test.PNG) <br />
+
+
